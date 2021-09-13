@@ -1,39 +1,30 @@
 <template>
-<div  id="app">
-   <Header />
-    <router-view />
-  <Footer />
-</div>
- 
-
+  <div id="nav">
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>
+  </div>
+  <router-view/>
 </template>
 
-  <script>
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-
-
-export default {
-  components: {
-    Header,
-    Footer
-  }
-};
-</script>
-
-<style >
-
+<style>
 #app {
-  font-family: futura-pt;
-  /* font-weight: 400; */
-  font-style: normal;
-  letter-spacing: 0em;
-  text-transform: none;
-  line-height: 1.4em;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  /* font-size: calc((2 - 1) * 1.2vh + 1rem); */
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
 }
 
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
 </style>
-
-
