@@ -1,17 +1,21 @@
 <template>
-  <div class=" about py-14 mx-10 md:mx-36 lg:mx-80">
-    <div class="content mx-10">
-      <h1 class="text-4xl">{{date}}</h1>
-      <div class="content text-xl mt-6">
-        <p>
+  <div class=" about py-5 mx-10 md:mx-36 lg:mx-80 divide-y ">
+    <div class="content mx-10 ">
+      <h1 class="text-lg italic">{{date}}</h1>
+      <div class="content text-xl mt-4">
+        <p class="text-4xl mb-9 font-bold">
          {{title}}
         </p>
-        <p>
-         {{description}}
+        <p class="leading-8 text-2xl" v-html="description">
         </p>
       </div>
+
+      
       
     </div>
+    <div class="my-10">
+        
+      </div>
   </div>
 </template>
 

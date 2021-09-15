@@ -5,7 +5,7 @@
       </div>
 
       <div id="nav" class="items-center flex">
-        <a class="inline-block px-2">
+        <!-- <a class="inline-block px-2">
           <router-link to="/">EMAIL</router-link> 
         </a>
          <a class="inline-block px-2">
@@ -13,7 +13,7 @@
         </a>
         <a class="inline-block px-2">
           <router-link to="/about">INSTAGRAM</router-link>
-        </a>
+        </a> -->
       </div>
   </nav>
 </template>
