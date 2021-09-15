@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "deploy": "cd dist && cp index.html 404.html"
+    "deploy": "cd docs && cp index.html 404.html"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
