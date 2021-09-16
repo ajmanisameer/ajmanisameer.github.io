@@ -1,6 +1,6 @@
 <template>
-  <nav class="p-10 px-15 flex  items-center">
-      <div id="title" class="flex w-11/12 items-center">
+  <nav class="p-10 px-15 flex items-center">
+      <div id="title" class="flex w-10/12 items-center">
         <a class="text-lg"> © {{ date }} SAMEER AJMANI  </a>
       </div>
 

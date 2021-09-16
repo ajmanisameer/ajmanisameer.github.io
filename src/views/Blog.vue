@@ -4,15 +4,21 @@
     class="
       min-h-full
       mx-10
-      grid grid-flow-row grid-cols-2
+      grid grid-flow-row md:grid-cols-2 sm:grid-cols-1
       auto-rows-auto
       gap-10
     "
   >
     <div v-for="post in posts" :key="post.id" class="content">
       <p class="italic my-4">{{ post.date }}</p>
-      <p class="my-4 w-6/6 text-3xl">{{ post.title }}</p>
-      <div class="content w-4/6">
+
+      <a
+        @click="persist(post.id)"
+        class="my-4 cursor-pointer w-6/6 text-3xl hover:underline font-bold"
+      >
+        {{ post.title }}
+      </a>
+      <div class="content mt-4 w-4/6">
         <p class="" v-html="post.description.substring(0, 140) + `..`"></p>
         <!-- {{post.description}} -->
       </div>
@@ -30,7 +36,7 @@
 
 <script>
 // @ is an alias to /src
-import postsData from '../blogs.json';
+import postsData from "../blogs.json";
 // import { NotionRenderer, getPageBlocks } from "vue-notion";
 // import Post from '@/views/Post.vue';
 
