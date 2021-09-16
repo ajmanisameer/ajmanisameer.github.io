@@ -1,7 +1,7 @@
 <template>
   <nav class="p-10 px-15 flex  items-center">
       <div id="title" class="flex w-11/12 items-center">
-        <a>  <router-link to="/">  SAMEER AJMANI </router-link> </a>
+        <a>  <router-link to="/">  SAMEER AJ. </router-link> </a>
       </div>
 
       <div id="nav" class="items-center mr-auto flex">
