@@ -1,6 +1,6 @@
 <template>
   <div class="about py-14 mx-10 md:mx-36 lg:mx-80">
-    <div class="content mx-10">
+    <div class="content leading-8 mx-10">
       <h1 class="text-4xl">About Me</h1>
       <div class="content text-xl mt-6">
         <p>
