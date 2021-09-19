@@ -19,7 +19,7 @@
         {{ post.title }}
       </a>
       <div class="content mt-4 w-4/6">
-        <p class="" v-html="post.description.substring(0, 140) + `..`"></p>
+        <p class="text-lg" v-html="post.description.substring(0, 110) + `..`"></p>
         <!-- {{post.description}} -->
       </div>
       <p @click="persist(post.id)" class="my-3 cursor-pointer underline italic">
