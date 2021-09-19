@@ -29,8 +29,9 @@ export default {
 
 <style >
 #app {
-  font-family: Apercu, Avenir, -apple-system, BlinkMacSystemFont,
-    "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+  /* font-family: Apercu, Avenir, -apple-system, BlinkMacSystemFont,
+    "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif; */
+    font-family: "orpheus-pro",Optima,sans-serif ;
   /* font-weight: 400; */
   font-style: normal;
   letter-spacing: 0em;
