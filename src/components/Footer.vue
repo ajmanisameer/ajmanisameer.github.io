@@ -1,7 +1,7 @@
 <template>
-  <nav class="p-10 px-15 flex items-center">
+  <nav class=" px-10 py-5 flex items-center">
       <div id="title" class="flex w-10/12 items-center">
-        <a class="text-lg"> © {{ date }} SAMEER AJMANI  </a>
+        <a class="text-md"> © {{ date }} SAMEER AJMANI  </a>
       </div>
 
       <div id="nav" class="items-center flex">

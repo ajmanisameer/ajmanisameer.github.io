@@ -1,5 +1,5 @@
 <template>
-  <div class="about py-14  md:mx-28 lg:mx-60">
+  <div class="about mt-10 md:mx-28 lg:mx-60 divide-y">
     <div class="content leading-8 mx-10">
       <h1 class="text-4xl">About Me</h1>
       <div class="content text-xl mt-6">
@@ -20,10 +20,15 @@
         <p>
           This blog is a collection of my thoughts on various ideas I've found
           valuable for being happy, improving my life, or understanding the
-          world. A lot of them will be focus on self-improvement and rationality.
-          (Anything and everything on this blog is obviously my personal view!)
+          world. A lot of them will be focus on self-improvement and
+          rationality. (Anything and everything on this blog is obviously my
+          personal view!)
         </p>
       </div>
+    </div>
+    <div class="my-10 mx-10">
+      <p class="mt-10 text-sm">designed & developed with <span class="text-red-600"><i class="fa fa-heart" aria-hidden="true"></i> </span> & <i  class="fa">&#xf0f4;</i> </p>
+      
     </div>
   </div>
 </template>
