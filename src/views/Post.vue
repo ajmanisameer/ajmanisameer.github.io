@@ -1,6 +1,6 @@
 <template>
   <div class=" about py-5 mx-10 md:mx-36 lg:mx-80 divide-y ">
-    <div class="content mx-10 ">
+    <div class="content ">
       <h1 class="text-lg italic">{{date}}</h1>
       <div class="content text-xl mt-4">
         <p class="text-4xl mb-9 font-bold">

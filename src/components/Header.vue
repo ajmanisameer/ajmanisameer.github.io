@@ -4,11 +4,12 @@
         <a class="text-3xl ">  <router-link to="/">  Sameer Ajmani </router-link> </a>
       </div>
       <div id="nav" class="items-center md:mr-12 sm:mr-5 flex">
-         <a class="inline-block text-lg px-4">
-          <router-link to="/work">Work</router-link> 
-        </a>
+        
         <a class="inline-block text-lg px-4">
           <router-link to="/">Blog</router-link> 
+        </a>
+         <a class="inline-block text-lg px-4">
+          <router-link to="/work">Work</router-link> 
         </a>
         <a class="inline-block text-lg px-4">
           <router-link to="/about">About</router-link>
