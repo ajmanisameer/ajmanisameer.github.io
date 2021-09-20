@@ -19,7 +19,7 @@
     <div
       @click="(isActive = !isActive), (isOpen = !isOpen)"
       v-bind:class="{ active: isActive }"
-      class="button_container md:hidden"
+      class="button_container md:hidden items-center"
       id="toggle"
     >
       <span class="top"></span><span class="middle"></span
@@ -129,7 +129,7 @@ h1 {
 }
 .button_container {
   position: fixed;
-  top: 6.6%;
+  /* top: 6.6%; */
   right: 8%;
   height: 20px;
   width: 35px;
