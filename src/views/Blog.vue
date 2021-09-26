@@ -9,17 +9,17 @@
       gap-10
     "
   >
-    <div v-for="post in posts" :key="post.id" class="content">
+    <div v-for="post in posts" :key="post.id" class="content w-6/6">
       <p class="italic my-4">{{ post.date }}</p>
 
       <a
         @click="persist(post.id)"
-        class="my-4 cursor-pointer w-6/6 text-3xl hover:underline font-bold"
+        class="my-4 cursor-pointer text-3xl hover:underline font-bold"
       >
         {{ post.title }}
       </a>
       <div class="content mt-4 w-5/6">
-        <p class="text-lg" v-html="post.description.substring(0, 110) + `..`"></p>
+        <p class="text-lg " v-html="post.description.substring(0, 100) + `..`"></p>
         <!-- {{post.description}} -->
       </div>
       <p  class="my-3 underline italic">
@@ -55,7 +55,6 @@ export default {
     persist(id) {
       this.posts.forEach((post) => {
         if (post.id == id) {
-          console.log(post);
           localStorage.setItem("title", post.title);
           localStorage.setItem("description", post.description);
           localStorage.setItem("date", post.date);
@@ -65,9 +64,7 @@ export default {
     },
   },
   async created() {
-    console.log(this.posts);
     this.loading = false;
-
     // try{
     //   console.log("here")
     // //   this.posts = await PostService.getPosts()

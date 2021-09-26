@@ -6,7 +6,7 @@
         <p class="text-4xl mb-9 font-bold">
          {{title}}
         </p>
-        <p class="leading-8 text-xl" v-html="description">
+        <p class="leading-8 text-xl " v-html="description">
         </p>
       </div>
 
