@@ -41,6 +41,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   /* font-size: calc((2 - 1) * 1.2vh + 1rem); */
 }
+
+body{
+  background: #dfe0e1;
+}
 </style>
 
 

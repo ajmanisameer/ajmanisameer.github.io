@@ -14,7 +14,7 @@
 
       <a
         @click="persist(post.id)"
-        class="my-4 cursor-pointer text-3xl hover:underline font-bold"
+        class="my-4 cursor-pointer text-3xl hover:underline font-semibold"
       >
         {{ post.title }}
       </a>

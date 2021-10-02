@@ -1,19 +1,19 @@
 <template>
   <nav class="p-10 px-15 flex items-center">
     <div id="title" class="flex w-10/12 items-center">
-      <a class="text-3xl">
-        <router-link to="/"> Sameer Ajmani </router-link>
+      <a class="text-4xl">
+        <router-link to="/"> Sameer <span class="italic">Ajmani</span></router-link>
       </a>
     </div>
     <div id="nav" class="items-center hidden md:flex md:mr-12">
       <a class="inline-block text-lg px-3">
-        <router-link to="/about">About</router-link>
+        <router-link to="/about">about</router-link>
       </a>
       <a class="inline-block text-lg px-3">
-        <router-link to="/">Blog</router-link>
+        <router-link to="/">blog</router-link>
       </a>
       <a class="inline-block text-lg px-3">
-        <router-link to="/work">Work</router-link>
+        <router-link to="/work">work</router-link>
       </a>
     </div>
     <div
@@ -62,7 +62,7 @@ export default {
 
 <style scoped>
 #title {
-  font-family: "orpheus-pro", Optima, sans-serif;
+  font-family: "brandon-grotesque";
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0em;
