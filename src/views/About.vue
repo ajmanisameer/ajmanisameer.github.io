@@ -1,5 +1,5 @@
-<template>
-  <div class="about mt-10 md:mx-28 lg:mx-60 divide-y divide-gray-300">
+<template  >
+  <div  class=" about mt-10 md:mx-28 lg:mx-60 divide-y divide-gray-300">
     <div class="content leading-8 mx-10">
       <h1 class="text-4xl">About <span class="italic">me</span></h1>
       <div class="content text-xl mt-6">
@@ -28,7 +28,6 @@
     </div>
     <div class="my-10 mx-10">
       <p class="mt-10 text-sm">designed & developed with <span class="text-red-600"><i class="fa fa-heart" aria-hidden="true"></i> </span> & <i  class="fa">&#xf0f4;</i> </p>
-      
     </div>
   </div>
 </template>
@@ -38,6 +37,10 @@
 
 export default {
   name: "About",
+  data(){
+    return {
+    };
+  },
   components: {},
 };
 </script>
