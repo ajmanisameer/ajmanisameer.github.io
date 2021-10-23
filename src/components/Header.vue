@@ -30,17 +30,17 @@
         <ul>
           <li>
             <a @click="(isActive = !isActive), (isOpen = !isOpen)" class="">
-              <router-link to="/about">About</router-link>
+              <router-link to="/about">about</router-link>
             </a>
           </li>
           <li>
             <a @click="(isActive = !isActive), (isOpen = !isOpen)" class="">
-              <router-link to="/">Blog</router-link>
+              <router-link to="/">blog</router-link>
             </a>
           </li>
           <li>
             <a @click="(isActive = !isActive), (isOpen = !isOpen)" class="">
-              <router-link to="/work">Work</router-link>
+              <router-link to="/work">work</router-link>
             </a>
           </li>
         </ul>
