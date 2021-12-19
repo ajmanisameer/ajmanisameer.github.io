@@ -10,7 +10,7 @@
           people as I can that they can realize their potential, too.
         </p>
         <p>
-          I taught myself how to write code and building webistes to help people
+          I taught myself how to write code and building websites to help people
           become better at what they do. I am currently a software
           engineer(self-taught) building a enterprise grade SaaS application.
         </p>
